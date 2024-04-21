@@ -1,5 +1,10 @@
 # Flask-MongoDB Web App
 
-In this assignment you will create a web app that relies upon a MongoDB database.
+## Title
+FurryFriends Finder
 
-Replace the contents of this file with a description of your own web app, as described in [the instructions](./instructions.md).
+### Description
+It is designed to facilitate the adoption process of pets. It allows users to view available pets, add new pets to the adoption list, and edit or delete existing pet records. 
+
+#### Full names & NYU Net ID
+Zoey Qu; xq529

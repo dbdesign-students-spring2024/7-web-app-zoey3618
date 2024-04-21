@@ -1,25 +1,112 @@
-.container {
-  border: 2px solid;
-  width: 50%;
-  margin: 0 auto;
+/* Basic reset */
+body, h1, h2, h3, p, form, ul, li {
+  margin: 0;
+  padding: 0;
 }
 
-header,
-footer,
-main {
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
   padding: 20px;
 }
 
-header,
-main {
-  border-bottom: 2px solid;
-  margin-bottom: 5px;
+header {
+  background-color: #007BFF;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
 }
 
-p.post {
-  font-size: 12px;
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 16px;
+  margin: 0 5px;
+  background-color: #0056b3;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #003580;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background: #ffffff;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form p {
+  margin-bottom: 12px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #218838;
 }
 
 footer {
-  margin-bottom: 5px;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  background-color: #007BFF;
+  color: #ffffff;
+}
+
+footer p a {
+  color: #aad;
+}
+
+footer p a:hover {
+  color: #fff;
 }
